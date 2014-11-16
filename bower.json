@@ -1,6 +1,6 @@
 {
   "name": "iwdf-pag",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "authors": [
     "Fabio Bedini aka Whisher <io@ilwebdifabio.it>"
   ],
@@ -17,6 +17,7 @@
     "bootstrap-sass-official": "~3.3.1",
     "angular-bootstrap": "~0.11.0",
     "angular-ui-router": "~0.2.11",
-    "fontawesome": "~4.1.0"
+    "ionic":"~1.0.0-beta.14",
+    "ionicons": "~1.5.2"
   }
 }

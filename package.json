@@ -1,12 +1,13 @@
 {
   "name": "iwdf-pag",
   "version": "0.0.1",
-  "description": "phonegap angularjs gulp seed",
+  "description": "cordova ionic angularjs browserify - gulp boilerplate",
   "main": "gulpfile.js",
   "scripts": {},
-  "author": "Fabio Bedini aka Whisher",
+  "author": "Fabio Bedini aka Whisher <io@ilwebdifabio.it>",
   "license": "Apache License",
   "devDependencies": {
+    "cordova": "~3.6.3-0.2.13",
     "browser-sync": "^1.6.5",
     "gulp": "^3.8.9",
     "gulp-angular-templatecache": "^1.4.2",
