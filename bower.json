@@ -1,5 +1,5 @@
 {
-  "name": "iwdf-pag",
+  "name": "gulp-ionic-browserify",
   "version": "0.0.1",
   "authors": [
     "Fabio Bedini aka Whisher <io@ilwebdifabio.it>"
@@ -9,14 +9,12 @@
     "**/.*",
     "node_modules",
     "bower_components",
+    "build",
+    "ionic",
     "test",
     "tests"
   ],
   "dependencies": {
-    "angular": "~1.3.0",
-    "bootstrap-sass-official": "~3.3.1",
-    "angular-bootstrap": "~0.11.0",
-    "angular-ui-router": "~0.2.11",
     "ionic":"~1.0.0-beta.14",
     "ionicons": "~1.5.2"
   }

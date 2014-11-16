@@ -1,17 +1,20 @@
 {
-  "name": "iwdf-pag",
+  "name": "gulp-ionic-browserify",
   "version": "0.0.1",
   "description": "cordova ionic angularjs browserify - gulp boilerplate",
   "main": "gulpfile.js",
-  "scripts": {},
+  "scripts": {
+    "postinstall": "bower install"
+  },
   "author": "Fabio Bedini aka Whisher <io@ilwebdifabio.it>",
   "license": "Apache License",
   "devDependencies": {
-    "cordova": "~3.6.3-0.2.13",
     "browser-sync": "^1.6.5",
+    "cordova": "^4.1.2",
     "gulp": "^3.8.9",
     "gulp-angular-templatecache": "^1.4.2",
     "gulp-autoprefixer": "^1.0.1",
+    "gulp-browserify": "^0.5.0",
     "gulp-concat": "^2.4.1",
     "gulp-csso": "^0.2.9",
     "gulp-filter": "^1.0.2",

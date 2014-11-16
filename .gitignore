@@ -2,7 +2,7 @@ nbproject/
 .sass-cache/
 node_modules/
 bower_components/
-phonegap/
+ionic/
 build/
 tmp/
 
