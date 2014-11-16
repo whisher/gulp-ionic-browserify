@@ -19,7 +19,7 @@ bundle.
 Using EditorConfig, Lintspaces, and JSHint enforces better code quality and 
 ensures higher standards. Keep them included and be stringent!
 
-### Manging Cordova Correctly
+### Managing Cordova Correctly
 Many Cordova projects I've worked on assume you have Cordova installed globally 
 and will use that to do builds causing a major headache due to version 
 mismatches. Building should be accomplished by using a localised Cordova 
@@ -27,3 +27,11 @@ version installed as part of the project and as a result this project has a
 relative symbolic link setup to accomplish this. Simply use _./cordova_ in the 
 root of this project to perform all Cordova tasks as this will use the version 
 installed locally in the _node_modules_ folder.
+
+## Quick Install
+    git clone https://github.com/whisher/gulp-ionic-browserify.git 
+    cd gulp-ionic-browserify
+    npm install
+    bower install
+    npm install cordova@[VERSION] --save-dev (or npm install cordova@[VERSION] --save-dev)
+    ./cordova -d create ./phonegap 
